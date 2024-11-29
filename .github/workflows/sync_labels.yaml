@@ -23,3 +23,9 @@ jobs:
         uses: srealmoreno/label-sync-action@v2
         with:
           config-file: https://raw.githubusercontent.com/Flutter-Journey/.github/main/.github/labels.yml
+
+      - name: 🚀 Run Label Sync (Local)
+        if: ${{ hashFiles('.github/labels.yml') }}
+        uses: srealmoreno/label-sync-action@v2
+        with:
+          config-file: .github/labels.yml
