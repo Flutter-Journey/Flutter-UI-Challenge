@@ -41,7 +41,7 @@ Make sure to describe the context and requirements of your challenge in detail.
 
 | Challenge | Description | Screenshots | Link |
 | --------- | ----------- | ----------- | ---- |
-| Challenge 1: Movie Selection | A movie selection screen with a horizontal sliding effect. Click to view detailed information including description, ticket price, and showtimes. | ![Screen](movie_selection_screen/media/screen1.png) | [Demo Video](https://youtube.com/shorts/cHObOQJJ9vA) |
+| Challenge 1: Movie Selection | A movie selection screen with a horizontal sliding effect. Click to view detailed information including description, ticket price, and showtimes. | [![Screen](movie_selection_screen/media/screen1.png)](https://github.com/Flutter-Journey/Flutter-UI-Challenge/tree/main/movie_selection_screen) | [Demo Video](https://youtube.com/shorts/cHObOQJJ9vA) |
 
 
 ## 📂 Requirements
