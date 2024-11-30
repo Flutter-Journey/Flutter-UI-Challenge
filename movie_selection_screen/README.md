@@ -1,16 +1,34 @@
-# movie_selection_screen
+# Movie Selection Screen
 
-A new Flutter project.
+## Challenge 1
 
-## Getting Started
+This challenge is a movie selection screen with a horizontal sliding effect to view a list of movies. Clicking on a movie displays detailed information such as the description, ticket price, and showtimes.
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
+Watch the demo of the app in action:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Movie Selection Demo](https://youtube.com/shorts/cHObOQJJ9vA?feature=share)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<details>
+  <summary> <em> Gif Demo </em> 🕹️ </summary>
+  <div align="center">
+    <img src="media/movie-challenge.gif" alt="Demo GIF" style="max-height: 400px; width: auto;"/>
+  </div>
+</details>
+
+## Screenshots
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+| ------------ | ------------ | ------------ |
+| ![Screen 1](media/screen1.png) | ![Screen 2](media/screen2.png) | ![Screen 3](media/screen3.png) |
+
+## Data
+
+https://cellphones.com.vn/sforum/phim-viet-nam-chieu-rap
+
+<div align="center">
+
+#### Made by Flutter <img src="https://raw.githubusercontent.com/Flutter-Journey/.github/refs/heads/main/media/flutter_icon.png" height="15"> with Love ❤️ | Developed by [ChunhThanhDe](https://github.com/chunhthanhde)
+
+</div>
