@@ -1,6 +1,6 @@
 # Rating Bar Screen
 
-## Description
+## Challenge 2
 
 This challenge show create a cool animated rating bar with a sliding effect. The rating bar provides a visual representation of a user's feedback, with smooth animations and an interactive interface.
 
