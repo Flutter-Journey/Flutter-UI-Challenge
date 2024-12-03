@@ -39,9 +39,13 @@ Make sure to describe the context and requirements of your challenge in detail.
 
 ## 🏆 Challenges Overview
 
-| Challenge | Description | Screenshots | Link |
-| --------- | ----------- | ----------- | ---- |
-| Challenge 1: Movie Selection | A movie selection screen with a horizontal sliding effect. Click to view detailed information including description, ticket price, and showtimes. | [![Screen](movie_selection_screen/media/screen1.png)](https://github.com/Flutter-Journey/Flutter-UI-Challenge/tree/main/movie_selection_screen) | [Demo Video](https://youtube.com/shorts/cHObOQJJ9vA) |
+| Challenge                     | Description                                                                                                                                           | Screenshots                                                                                       | Link                                                                                                   |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Challenge 1: Movie Selection  | A movie selection screen with a horizontal sliding effect. Click to view detailed information including description, ticket price, and showtimes.      | [![Screen](movie_selection_screen/media/screen1.png)](https://github.com/Flutter-Journey/Flutter-UI-Challenge/tree/main/movie_selection_screen) | [Demo Video](https://youtube.com/shorts/cHObOQJJ9vA)                                                  |
+| Challenge 2: Rating Bar Screen| An animated rating bar with a sliding effect. Provides visual feedback with smooth animations and interactive interface for user rating experiences. | [![Screen](rating_bar_screen/media/screen2.jpg)](https://github.com/Flutter-Journey/Flutter-UI-Challenge/tree/main/rating_bar_screen) | [Demo Video](https://youtube.com/shorts/YF_nQpT840o)                                                  |
+
+----
+
 
 
 ## 📂 Requirements
