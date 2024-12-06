@@ -1,16 +1,32 @@
-# drinks_selection_screen
+# Drink Swipe Screen
 
-A new Flutter project.
+## Challenge 4
 
-## Getting Started
+This challenge creates a dynamic drink selection screen with a swipe effect between drinks. It provides users with a visually engaging way to explore and select drinks, updating price information dynamically.
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
+Watch the demo of the app in action:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Drink Swipe Demo](https://youtube.com/shorts/hob8umTBZ2Y?si=I6xUtYyWf9ItcPsg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+| ------------ | ------------ | ------------ |
+| ![Screen 1](media/screen1.jpg) | ![Screen 2](media/screen2.jpg) | ![Screen 3](media/screen3.jpg) |
+
+## Data 🤒
+
+This screen uses various drink images to enhance user experience with swipe effects. They are collected through the HighLand menu.
+
+https://www.highlandscoffee.com.vn/
+
+
+<div align="center">
+
+#### Made by Flutter <img src="https://raw.githubusercontent.com/Flutter-Journey/.github/refs/heads/main/media/flutter_icon.png" height="15"> with Love ❤️ | Developed by [ChunhThanhDe](https://github.com/chunhthanhde)
+
+</div>
+
