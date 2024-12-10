@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:05
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 
 class TicketButton extends StatelessWidget {
@@ -14,8 +20,7 @@ class TicketButton extends StatelessWidget {
         ),
         child: const Text(
           "Check Out",
-          style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
         ),
       ),
     );

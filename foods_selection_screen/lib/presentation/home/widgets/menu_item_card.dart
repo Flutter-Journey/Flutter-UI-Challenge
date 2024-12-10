@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-06 08:14:47
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:foods_selection_screen/data/food_data.dart';
 import 'package:foods_selection_screen/presentation/detail/detail_screen.dart';
@@ -12,8 +18,7 @@ class MenuItemCard extends StatefulWidget {
   State<MenuItemCard> createState() => _MenuItemCardState();
 }
 
-class _MenuItemCardState extends State<MenuItemCard>
-    with SingleTickerProviderStateMixin {
+class _MenuItemCardState extends State<MenuItemCard> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
 
   @override
@@ -38,8 +43,7 @@ class _MenuItemCardState extends State<MenuItemCard>
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) =>
-                DetailScreen(data: widget.data, tag: "${widget.index}"),
+            builder: (context) => DetailScreen(data: widget.data, tag: "${widget.index}"),
           ),
         );
       },

@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:07
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:rating_bar_screen/slider_widget.dart';
 import 'package:video_player/video_player.dart';
@@ -41,10 +47,7 @@ class _HomepageState extends State<Homepage> {
           children: [
             const Text(
               "How's your day",
-              style: TextStyle(
-                  fontSize: 32,
-                  color: Color(0xFF69708D),
-                  fontWeight: FontWeight.w700),
+              style: TextStyle(fontSize: 32, color: Color(0xFF69708D), fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 20),
             _buildVideoPlayer(),
@@ -52,9 +55,7 @@ class _HomepageState extends State<Homepage> {
             Text(
               emotion,
               style: const TextStyle(
-                  fontSize: 32,
-                  color: Color(0xFF69708D),
-                  fontWeight: FontWeight.w700),
+                  fontSize: 32, color: Color(0xFF69708D), fontWeight: FontWeight.w700),
             ),
             SliderWidget(
               lowerValue: _lowerValue,

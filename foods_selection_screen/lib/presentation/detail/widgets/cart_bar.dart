@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-06 08:14:47
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:foods_selection_screen/data/food_data.dart';
 
@@ -48,27 +54,20 @@ class CartBar extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 20),
-                const Text("Đơn mua",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 18)),
+                const Text("Đơn mua", textAlign: TextAlign.center, style: TextStyle(fontSize: 18)),
                 const SizedBox(height: 20),
                 Expanded(
                   child: ListView.builder(
                     itemCount: items.length,
-                    itemBuilder: (context, index) =>
-                        Image.asset(items[index].image, height: 50),
+                    itemBuilder: (context, index) => Image.asset(items[index].image, height: 50),
                   ),
                 ),
                 const SizedBox(height: 20),
-                const Text("Tổng:",
-                    style:
-                        TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                Text("${items.length} món",
-                    style: const TextStyle(fontSize: 14)),
+                const Text("Tổng:", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                Text("${items.length} món", style: const TextStyle(fontSize: 14)),
                 const SizedBox(height: 5),
                 const Text("250.000 đ",
-                    style:
-                        TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
                 const SizedBox(height: 20),
               ],
             ),

@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-06 08:14:47
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:foods_selection_screen/data/food_data.dart';
 import 'widgets/menu_item_card.dart';
@@ -14,8 +20,7 @@ class HomeScreen extends StatelessWidget {
         leading: const Icon(Icons.sort, color: Colors.black),
         actions: [
           _buildActionIcon(context, Icons.shopping_cart),
-          _buildActionIcon(context, Icons.search,
-              margin: const EdgeInsets.only(right: 20)),
+          _buildActionIcon(context, Icons.search, margin: const EdgeInsets.only(right: 20)),
         ],
       ),
       body: Padding(
@@ -60,8 +65,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildActionIcon(BuildContext context, IconData icon,
-      {EdgeInsets? margin}) {
+  Widget _buildActionIcon(BuildContext context, IconData icon, {EdgeInsets? margin}) {
     return Container(
       height: 40,
       width: 40,

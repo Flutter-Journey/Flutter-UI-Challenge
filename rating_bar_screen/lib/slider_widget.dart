@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:07
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:another_xlider/another_xlider.dart';
 
@@ -39,8 +45,7 @@ class SliderWidget extends StatelessWidget {
             type: MaterialType.canvas,
             color: Colors.white,
             elevation: 3,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
             child: Container(
               padding: const EdgeInsets.all(5),
               child: const Icon(Icons.arrow_forward_ios, size: 25),
@@ -53,10 +58,8 @@ class SliderWidget extends StatelessWidget {
           scale: 1.4,
         ),
         tooltip: FlutterSliderTooltip(disabled: true),
-        onDragging: (handlerIndex, lowerValue, upperValue) =>
-            onDragging(lowerValue),
-        onDragCompleted: (handlerIndex, lowerValue, upperValue) =>
-            onDragCompleted(lowerValue),
+        onDragging: (handlerIndex, lowerValue, upperValue) => onDragging(lowerValue),
+        onDragCompleted: (handlerIndex, lowerValue, upperValue) => onDragCompleted(lowerValue),
       ),
     );
   }

@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:05
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:movie_selection_screen/model.dart';
@@ -44,8 +50,7 @@ class _MovieDetailState extends State<MovieDetail> {
             delegate: SliverChildListDelegate(
               [
                 Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -123,14 +128,12 @@ class _MovieTitleAndTicketPrice extends StatelessWidget {
               children: [
                 Text(
                   movie.title,
-                  style: const TextStyle(
-                      fontWeight: FontWeight.bold, fontSize: 25),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                 ),
                 const SizedBox(height: 5),
                 Text(
                   "Director: ${movie.director}",
-                  style: const TextStyle(
-                      fontWeight: FontWeight.w500, color: Colors.black54),
+                  style: const TextStyle(fontWeight: FontWeight.w500, color: Colors.black54),
                 ),
               ],
             ),

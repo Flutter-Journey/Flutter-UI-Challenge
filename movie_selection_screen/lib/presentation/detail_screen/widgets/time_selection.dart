@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:05
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
@@ -75,9 +81,7 @@ class _TimeSelectionState extends State<TimeSelection> {
                     decoration: BoxDecoration(
                         border: Border.all(
                           width: selectedColor == index ? 3 : 0,
-                          color: selectedColor == index
-                              ? Colors.white
-                              : Colors.transparent,
+                          color: selectedColor == index ? Colors.white : Colors.transparent,
                         ),
                         shape: BoxShape.circle,
                         color: selectedColor == index
@@ -90,9 +94,8 @@ class _TimeSelectionState extends State<TimeSelection> {
                         time[index],
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: selectedColor == index
-                              ? Colors.white
-                              : Colors.black.withOpacity(0.7),
+                          color:
+                              selectedColor == index ? Colors.white : Colors.black.withOpacity(0.7),
                           fontSize: 12,
                         ),
                         textAlign: TextAlign.center,

@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:05
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 class Movie {
   String title;
   String image;
@@ -29,8 +35,7 @@ class Movie {
 final List<Movie> movieItems = [
   Movie(
     title: 'Công Tử Bạc Liêu',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-1.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-1.jpg',
     director: 'Direct by Lý Minh Thắng',
     rating: '4.7',
     duration: '1h:46m',
@@ -44,8 +49,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Linh Miêu: Quỷ Nhập Tràng',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-2.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-2.jpg',
     director: 'Direct by Lưu Thành Luân',
     rating: '4.5',
     duration: '1h:49m',
@@ -59,8 +63,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Ngày Xưa Có Một Chuyện Tình',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-3.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-3.jpg',
     director: 'Direct by Trịnh Đình Lê Minh',
     rating: '4.8',
     duration: '2h:03m',
@@ -74,8 +77,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Cám',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-4.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-4.jpg',
     director: 'Direct by Trần Hữu Tấn',
     rating: '4.6',
     duration: '2h:02m',
@@ -89,8 +91,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Cô Dâu Hào Môn',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-5.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-5.jpg',
     director: 'Direct by Vũ Ngọc Đãng',
     rating: '4.7',
     duration: '1h:54m',
@@ -104,8 +105,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Hai Muối',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-6.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-6.jpg',
     director: 'Direct by NSƯT Vũ Thành Vinh',
     rating: '4.6',
     duration: '2h:03m',
@@ -119,8 +119,7 @@ final List<Movie> movieItems = [
   ),
   Movie(
     title: 'Lật Mặt 7: Một Điều Ước',
-    image:
-        'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-8.jpg',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/quynh/phim-viet-nam-chieu-rap-8.jpg',
     director: 'Direct by Lý Hải',
     rating: '4.9',
     duration: '2h:40m',

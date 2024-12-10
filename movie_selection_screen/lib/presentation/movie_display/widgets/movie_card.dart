@@ -1,3 +1,9 @@
+/*
+ * @ Author: Flutter Journey 🎯 <flutterjourney.org@gmail.com>
+ * @ Created: 2024-12-04 16:51:05
+ * @ Message: You look very hardworking 👨‍💻. Keep focusing on your goals. 🌤️
+ */
+
 import 'package:flutter/material.dart';
 import 'package:movie_selection_screen/model.dart';
 
@@ -49,8 +55,7 @@ class MovieCard extends StatelessWidget {
                 const SizedBox(height: 20),
                 Text(
                   movie.title,
-                  style: const TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 10),
@@ -69,10 +74,8 @@ class MovieCard extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         _buildIconText(Icons.star, movie.rating, Colors.amber),
-                        _buildIconText(
-                            Icons.access_time, movie.duration, Colors.black45),
-                        _buildIconText(
-                            Icons.play_circle, "Watch", Colors.black),
+                        _buildIconText(Icons.access_time, movie.duration, Colors.black45),
+                        _buildIconText(Icons.play_circle, "Watch", Colors.black),
                       ],
                     ),
                   ),
